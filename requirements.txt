@@ -1,0 +1,34 @@
+# Version management and packaging
+PyYAML>=5.3,<7
+pytz
+fire
+yq
+packaging
+
+# Jupyter and IPython-related packages
+nbconvert==6.4.5
+jupyter-client==7.2.0
+ipython
+
+# Google Cloud components
+google-cloud-aiplatform==1.18.0
+google-cloud-pipeline-components==1.0.24
+google-cloud-storage>=2.2.1,<3
+google-auth
+
+# Kubeflow Pipelines (KFP) and related dependencies
+kfp==1.8.21
+kfp-pipeline-spec==0.2.2
+kfp-server-api>=2.0.0,<2.1.0
+kubernetes>=8.0.0,<27
+
+# Additional dependencies for KFP 2.5.0
+click>=8.0.0,<9
+docstring-parser>=0.7.3,<1
+requests-toolbelt>=0.8.0,<1
+
+# basicos
+pandas
+
+
+packaging

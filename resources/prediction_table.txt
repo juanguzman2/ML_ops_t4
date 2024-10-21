@@ -1,0 +1,6 @@
+CREATE TABLE project.dataset.predictions (
+    prediction INT64,
+    creation_user STRING,
+    process_date DATE,
+    load_date TIMESTAMP
+)
